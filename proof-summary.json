@@ -1,0 +1,27 @@
+{
+  "ok": true,
+  "build": "passed",
+  "tests": [
+    {
+      "name": "system appearance, manual override, persistence, and app surfaces",
+      "passed": true
+    },
+    {
+      "name": "first-run onboarding follows system dark mode",
+      "passed": true
+    },
+    {
+      "name": "markdown meeting editor follows the selected theme",
+      "passed": true
+    },
+    {
+      "name": "blocknote meeting editor follows the selected theme",
+      "passed": true
+    },
+    {
+      "name": "active model download remains visible in dark mode",
+      "passed": true
+    }
+  ],
+  "boundaries": "Real production frontend; Tauri IPC and model downloads use fixtures. Native title bar is source-reviewed, not runtime-tested."
+}
